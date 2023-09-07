@@ -1,0 +1,40 @@
+/* start media  query*/      /* media="print"  media to apply different styles on different size of screens*/
+@media (max-width:767px )   /*standard width of tablets and mobiles*/    
+{
+h1{
+  color: green;
+}
+.navbar-inverse .navbar-nav > li > a{
+   padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+.subscribe button{
+  margin: 20px auto;
+  text-align: center;
+  border-radius: 5px;
+
+}
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse{
+  max-height: none;
+}
+}/* small screens*/
+@media (min-width:768px ) and (max-width: 991px){
+  h1{
+    color: red;
+  }
+}
+@media (min-width:992px ) and (max-width:  1199)  /* standard width of medium screen*/
+{
+  h1{
+    color: black ;
+  }
+  }
+
+@media (max-width:  1200)       /*larg screen*/
+ {
+
+}
+
+
+/* end media  query*/

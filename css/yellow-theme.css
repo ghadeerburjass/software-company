@@ -1,0 +1,26 @@
+/*start default theme*/
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus ,.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .navbar-inverse .navbar-brand span,.dropdown-menu > li > a:hover,.about h1, .about h3,.title h1 ,.features h1, .test h1,.features h1, .test h1,.price h1,.price-box p,.our-team h1,.join-us h1,.subscribe h1,.stats h1,.our-skills h1,.contact-us h1,.our-clients h1,.footer a:hover,.footer h3,.copyright span,.color-option h4{
+    
+    color:yellow;
+   
+}
+
+.color-option{
+  border: 2px solid yellow;
+} 
+ 
+
+
+ 
+
+ 
+  .carousel-indicators .active,.option-box i{
+  
+  	background-color: yellow;
+  }
+   
+
+
+
+/*end default theme*/
